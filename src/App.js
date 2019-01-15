@@ -5,11 +5,7 @@ import './App.css';
 import Header from './components/commons/Header';
 import Footer from './components/commons/Footer';
 import Main from './components/commons/Main';
-import Activities from './components/Activities';
-import Entertainment from './components/Entertainment';
-import Index from './components/Index';
-import Speakers from './components/Speakers';
-import Venue from './components/Venue';
+
 
 class App extends Component {
   render() {
