@@ -1,7 +1,9 @@
 import React from 'react';
 
 const Speakers = () => (
-  <h2>Speakers</h2>
+  <div className="container-fluid bg-dark">
+    <h2 className="text-light">Speakers</h2>
+  </div>
 );
 
 export default Speakers;

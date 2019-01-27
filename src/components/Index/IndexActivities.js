@@ -22,6 +22,7 @@ export default class IndexActivities extends Component {
         <div className="carousel-inner">
           {activities.map(activity => (
             <IndexCard
+              key={activity.name}
               name={activity.name}
               imgUrl={activity.imgUrl}
             />

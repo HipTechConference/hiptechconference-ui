@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 export default class IndexCard extends Component {
 
   render(){
+    console.log(this.props);
     const {imgUrl, name} = this.props
     return (
       <div className="carousel-item">

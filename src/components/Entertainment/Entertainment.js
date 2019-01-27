@@ -1,7 +1,9 @@
 import React from 'react';
 
 const Entertainment = () => (
-  <h2>Entertainment</h2>
+  <div className="container-fluid bg-dark">
+    <h2 className="text-light">Entertainment</h2>
+  </div>
 );
 
 export default Entertainment;
