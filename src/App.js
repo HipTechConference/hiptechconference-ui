@@ -5,6 +5,7 @@ import './App.css';
 import Header from './components/commons/Header';
 import Footer from './components/commons/Footer';
 import Main from './components/commons/Main';
+import Sidebar from './components/commons/Sidebar';
 
 
 class App extends Component {
@@ -13,9 +14,15 @@ class App extends Component {
       <div className="App">
         <Router>
           <div>
-          <Header />
-          <Main />
-          <Footer />
+            <Header />
+            <div className="container-fluid bg-dark">
+              <div className="row">
+                <div className="col-md-12 col-sm-12">
+                  <Main />
+                </div>
+              </div>
+            </div>
+            <Footer />
           </div>
         </Router>
       </div>

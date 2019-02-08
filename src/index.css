@@ -12,3 +12,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+@media (min-width: 768px) {
+  .card {
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+  }
+}
+
+#footer {
+  padding: 2vh;
+  width: 100%;
+}
+
+#social-card {
+  align-items: center;
+}
+
+#social-card ul {
+  list-style-type: none;
+}
+
+#social-card ul li {
+  display: inline;
+}
+
+#social-card ul li a {
+  text-decoration: none;
+}
