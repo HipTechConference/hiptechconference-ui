@@ -1,8 +1,13 @@
 import React from 'react';
+import EntertainmentCinema from './EntertainmentCinema'
+import EntertainmentComedy from './EntertainmentComedy'
+import EntertainmentMusic from './EntertainmentMusic'
 
 const Entertainment = () => (
   <div className="container-fluid bg-dark">
-    <h2 className="text-light">Entertainment</h2>
+    <EntertainmentMusic />
+    <EntertainmentCinema />
+    <EntertainmentComedy />
   </div>
 );
 

@@ -7,7 +7,7 @@ import GetTickets from './GetTickets'
 
 const Index = () => (
   <div className="container-fluid bg-dark">
-    <IndexActivities />
+    <IndexActivities className="container-fluid"/>
     <div>
       <GetTickets />
     </div>
